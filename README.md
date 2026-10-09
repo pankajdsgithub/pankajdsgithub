@@ -1,6 +1,6 @@
 # Pankaj Kumar
 
-### Azure DevOps Architect| Cloud Engineering | Platform Engineering
+### Azure DevOps Architect | Cloud Engineering | Platform Engineering
 
 I build and automate cloud infrastructure and application delivery using Microsoft Azure, Terraform, Azure DevOps, Docker, Kubernetes, and GitOps practices.
 
