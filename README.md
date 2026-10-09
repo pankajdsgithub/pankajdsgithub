@@ -1,53 +1,42 @@
-# Pankaj Kumar
+<p align="center">
+  <img src="assets/banner.svg" alt="Pankaj Kumar - Azure DevOps Architect" width="100%"/>
+</p>
 
-### Azure DevOps Architect | Cloud Engineering | Platform Engineering
 
 I build and automate cloud infrastructure and application delivery using Microsoft Azure, Terraform, Azure DevOps, Docker, Kubernetes, and GitOps practices.
 
-My focus is on reusable infrastructure modules, standardized CI/CD pipelines, secure deployments, and maintainable engineering platforms.
+My focus is reusable infrastructure modules, standardized CI/CD pipelines, secure deployments, and maintainable engineering platforms.
 
 ## Technical Skills
 
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+
 - **Cloud:** Microsoft Azure, Azure Kubernetes Service (AKS)
-- **Infrastructure as Code:** Terraform, reusable modules, `for_each`, environment-specific configuration
-- **CI/CD:** Azure DevOps YAML, reusable templates, pipeline parameters
-- **Containers:** Docker, Kubernetes, Helm
-- **GitOps:** Argo CD
+- **IaC:** Terraform, reusable modules, `for_each`, per-environment tfvars
+- **CI/CD:** Azure DevOps YAML, step/job/stage templates, parameterized thin pipelines
+- **Containers & GitOps:** Docker, Kubernetes, Helm, Argo CD
 - **Automation:** Bash, Python
-- **Observability:** Prometheus, Grafana, Loki
 
 ## Featured Projects
 
-### 1. Enterprise Azure Infrastructure with Terraform
-Reusable Terraform modules for deploying and managing Azure infrastructure across multiple environments.
+| Project | What it shows | Status |
+|---|---|---|
+| [terraform-azure-platform](https://github.com/pankajdsgithub/terraform-azure-platform) | Modular Terraform, `for_each`, multi-environment tfvars | 🟡 In progress |
+| [azure-devops-infra-pipelines](https://github.com/pankajdsgithub/azure-devops-infra-pipelines) | Reusable stage/job/step templates, thin consumer pipeline | 🟡 In progress |
+| azure-devops-app-pipelines | Template-driven app CI/CD for multiple teams | ⚪ Planned |
+| kubernetes-helm-platform | Reusable Helm charts, per-env values | ⚪ Planned |
+| argocd-gitops-platform | Argo CD apps, sync policies, drift reconciliation | ⚪ Planned |
 
-### 2. Reusable Infrastructure CI/CD
-A template-driven Azure DevOps pipeline architecture with reusable stages, jobs, steps, parameters, and environment-specific configuration.
+> Status is updated as each project is published and validated.
 
-### 3. Application CI/CD Framework
-Standardized application build and deployment pipelines that allow multiple teams to consume shared templates through thin pipeline definitions.
-
-### 4. Kubernetes and Helm
-Reusable Helm charts with configurable values, health probes, resource limits, and environment-specific deployment settings.
-
-### 5. GitOps with Argo CD
-Declarative Kubernetes deployments, synchronization policies, drift reconciliation, and deployment troubleshooting.
-
-### 6. AKS Observability
-Monitoring and logging patterns for Kubernetes workloads using Prometheus, Grafana, and Loki.
-
-*Project repositories and implementation documentation will be linked here as each project is published and validated.*
-
-## Engineering Principles
-
-- Reusable and modular automation
-- Secure-by-default infrastructure
-- Environment consistency
-- Version-controlled configuration
-- Documented deployment and troubleshooting procedures
+## Earlier Work (Data Science, 2021)
+[Machine-Learning](https://github.com/pankajdsgithub/Machine-Learning) · [datamining](https://github.com/pankajdsgithub/datamining)
 
 ## Connect
-
-- GitHub: [pankajdsgithub](https://github.com/pankajdsgithub)
-- LinkedIn: Add your LinkedIn profile URL
-
+[LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-ID) · [GitHub](https://github.com/pankajdsgithub)
