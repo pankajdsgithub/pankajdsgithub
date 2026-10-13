@@ -81,6 +81,18 @@ I aim to bridge **cloud architecture, DevSecOps automation, platform engineering
 
 *Project statuses reflect current development plans and should be updated as implementation and validation progress.*
 
+## Featured Projects
+
+### 1. Terraform Azure Platform
+
+Reusable Infrastructure as Code for Azure cloud infrastructure.
+
+- **Technology:** Microsoft Azure, Terraform
+- **Focus:** Infrastructure automation and reusable Terraform modules
+- **Repository:** [terraform-azure-platform](https://github.com/pankajdsgithub/terraform-azure-platform)
+
+---
+
 ## Engineering Workflow
 
 <p align="center">
