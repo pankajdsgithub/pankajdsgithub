@@ -29,16 +29,17 @@ My engineering focus is on reusable infrastructure modules, secure-by-default cl
 
 I aim to bridge **cloud architecture, DevSecOps automation, platform engineering, and production operations** through maintainable code, repeatable deployments, and engineering standards.
 
-## Engineering Focus
+## Featured Engineering Projects
 
-| Domain | Engineering Capabilities |
-|---|---|
-| **Azure Cloud Architecture** | Azure Landing Zones, governance, identity, networking, private connectivity |
-| **Infrastructure as Code** | Terraform modules, `for_each`, environment-specific configuration, reusable patterns |
-| **DevSecOps & CI/CD** | Pipeline templates, validation gates, security scanning integration, deployment automation |
-| **Containers & Kubernetes** | Docker, AKS, Kubernetes workloads, Helm charts, deployment reliability |
-| **GitOps & Platform Engineering** | Argo CD, declarative delivery, environment consistency, configuration management |
-| **Observability & SRE** | Metrics, logs, traces, dashboards, alerting, service reliability |
+| Project | Engineering Focus | Status |
+|---|---|---|
+| [terraform-azure-platform](https://github.com/pankajdsgithub/terraform-azure-platform) | Modular Azure infrastructure, reusable Terraform patterns, environment-specific tfvars | ![In Progress](https://img.shields.io/badge/STATUS-IN_PROGRESS-orange?style=for-the-badge) |
+| [azure-devops-infra-pipelines](https://github.com/pankajdsgithub/azure-devops-infra-pipelines) | Reusable infrastructure pipeline templates and thin consumer pipelines | ![In Progress](https://img.shields.io/badge/STATUS-IN_PROGRESS-orange?style=for-the-badge) |
+| `azure-devops-app-pipelines` | Reusable application CI/CD templates | ![Planned](https://img.shields.io/badge/STATUS-PLANNED-lightgrey?style=for-the-badge) |
+| `kubernetes-helm-platform` | Helm charts and environment-specific deployment configuration | ![Planned](https://img.shields.io/badge/STATUS-PLANNED-lightgrey?style=for-the-badge) |
+| `argocd-gitops-platform` | Declarative application delivery and GitOps synchronization | ![Planned](https://img.shields.io/badge/STATUS-PLANNED-lightgrey?style=for-the-badge) |
+
+*Project statuses reflect current development progress and will be updated after implementation and validation.*
 
 ## Core Technology Stack
 
@@ -80,17 +81,17 @@ I aim to bridge **cloud architecture, DevSecOps automation, platform engineering
 
 *Project statuses reflect current development plans and should be updated as implementation and validation progress.*
 
+
 ## Engineering Workflow
 
-```mermaid
-flowchart LR
-    A[Source Code] --> B[CI Pipeline]
-    B --> C[Validation and Tests]
-    C --> D[Security Scanning]
-    D --> E[Artifact or Image]
-    E --> F[CD or GitOps]
-    F --> G[Azure and AKS]
-    G --> H[Monitoring and Feedback]
+<p align="center">
+  <img
+    src="assets/devsecops-workflow.svg"
+    alt="DevSecOps workflow: Source, Build, Secure, Package, Deploy, and Operate"
+    width="100%"
+  />
+</p>
+
 ```
 
 ## Earlier Work
