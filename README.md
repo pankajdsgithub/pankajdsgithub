@@ -1,126 +1,117 @@
- <p align="center">
-  <img src="assets/banner.svg" alt="Pankaj Kumar Tiwari | DevSecOps Architect and Azure Platform Engineering" width="100%" />
-</p>
+<div align="center">
 
-<h1 align="center">Pankaj Kumar Tiwari</h1>
+<img src="assets/banner.svg" alt="Pankaj Kumar Tiwari | Azure DevOps · Terraform · AKS · Helm · Argo CD" width="100%"/>
 
-<h3 align="center">DevSecOps Architect | Azure Platform Engineering | Infrastructure Automation</h3>
+# Pankaj Kumar Tiwari
 
-<p align="center">
-  <a href="https://github.com/pankajdsgithub">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://azure.microsoft.com/">
-    <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Microsoft Azure"/>
-  </a>
-  <a href="https://www.terraform.io/">
-    <img src="https://img.shields.io/badge/Infrastructure_as_Code-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
-  </a>
-  <a href="https://kubernetes.io/">
-    <img src="https://img.shields.io/badge/Cloud_Native-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
-  </a>
-</p>
+### DevSecOps Architect &nbsp;|&nbsp; Azure Platform Engineering &nbsp;|&nbsp; Infrastructure Automation
 
-## Professional Profile
+*Build · Automate · Deploy*
 
-I build and standardize cloud infrastructure, platform engineering capabilities, and application delivery workflows using Microsoft Azure, Terraform, Azure DevOps, containers, Kubernetes, and GitOps.
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pankajdsgithub)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN-ID)
+[![Location](https://img.shields.io/badge/Noida-India-0078D4?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
-My engineering focus is on reusable infrastructure modules, secure-by-default cloud platforms, standardized CI/CD templates, automated deployment workflows, and operational reliability.
-
-I aim to bridge **cloud architecture, DevSecOps automation, platform engineering, and production operations** through maintainable code, repeatable deployments, and engineering standards.
-
-## Featured Engineering Projects
-
-| Project | Engineering Focus | Status |
-|---|---|---|
-| [terraform-azure-platform](https://github.com/pankajdsgithub/terraform-azure-platform) | Modular Azure infrastructure, reusable Terraform patterns, environment-specific tfvars | ![In Progress](https://img.shields.io/badge/STATUS-IN_PROGRESS-orange?style=for-the-badge) |
-| [azure-devops-infra-pipelines](https://github.com/pankajdsgithub/azure-devops-infra-pipelines) | Reusable infrastructure pipeline templates and thin consumer pipelines | ![In Progress](https://img.shields.io/badge/STATUS-IN_PROGRESS-orange?style=for-the-badge) |
-| `azure-devops-app-pipelines` | Reusable application CI/CD templates | ![Planned](https://img.shields.io/badge/STATUS-PLANNED-lightgrey?style=for-the-badge) |
-| `kubernetes-helm-platform` | Helm charts and environment-specific deployment configuration | ![Planned](https://img.shields.io/badge/STATUS-PLANNED-lightgrey?style=for-the-badge) |
-| `argocd-gitops-platform` | Declarative application delivery and GitOps synchronization | ![Planned](https://img.shields.io/badge/STATUS-PLANNED-lightgrey?style=for-the-badge) |
-
-*Project statuses reflect current development progress and will be updated after implementation and validation.*
-
-## Core Technology Stack
-
-<p>
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure"/>
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"/>
-  <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white" alt="Azure DevOps"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" alt="Helm"/>
-  <img src="https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="Argo CD"/>
-  <img src="https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aqua&logoColor=white" alt="Trivy"/>
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus"/>
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash"/>
-</p>
-
-## Architecture Principles
-
-- **Security by default:** least privilege, managed identities, secure connectivity, and controlled access.
-- **Reusable by design:** modular Terraform, shared pipeline templates, and standardized configuration.
-- **Automated delivery:** repeatable infrastructure provisioning and application deployment.
-- **Policy and quality gates:** infrastructure validation and security checks integrated into delivery workflows.
-- **Operational readiness:** health checks, metrics, logs, alerting, and documented troubleshooting.
-- **Environment consistency:** version-controlled configuration and explicit environment-specific values.
-
-## Featured Engineering Projects
-
-| Project | Engineering Focus | Status |
-|---|---|---|
-| [terraform-azure-platform](https://github.com/pankajdsgithub/terraform-azure-platform) | Modular Azure infrastructure, reusable Terraform patterns, environment-specific tfvars | In progress |
-| [azure-devops-infra-pipelines](https://github.com/pankajdsgithub/azure-devops-infra-pipelines) | Reusable infrastructure pipeline templates and thin consumer pipelines | In progress |
-| `azure-devops-app-pipelines` | Reusable application CI/CD templates | Planned |
-| `kubernetes-helm-platform` | Helm charts and environment-specific deployment configuration | Planned |
-| `argocd-gitops-platform` | Declarative application delivery and GitOps synchronization | Planned |
-| `aks-observability-platform` | Kubernetes monitoring, dashboards, logs, and alerting | In progress |
-
-*Project statuses reflect current development plans and should be updated as implementation and validation progress.*
-
-## Featured Projects
-
-### 1. Terraform Azure Platform
-
-Reusable Infrastructure as Code for Azure cloud infrastructure.
-
-- **Technology:** Microsoft Azure, Terraform
-- **Focus:** Infrastructure automation and reusable Terraform modules
-- **Repository:** [terraform-azure-platform](https://github.com/pankajdsgithub/terraform-azure-platform)
+</div>
 
 ---
 
-## Engineering Workflow
+## 👨‍💻 About Me
 
-<p align="center">
-  <img
-    src="assets/devsecops-workflow.svg"
-    alt="DevSecOps workflow: Source, Build, Secure, Package, Deploy, and Operate"
-    width="100%"
-  />
-</p>
+I build and standardize cloud infrastructure, platform engineering capabilities and application delivery workflows using **Microsoft Azure, Terraform, Azure DevOps, Kubernetes and GitOps**.
+
+- 🔐 **Secure by default** – least privilege, managed identities, policy and scan gates
+- ♻️ **Reusable by design** – modular Terraform, shared pipeline templates
+- 🚀 **Automated delivery** – repeatable infra provisioning and app deployment
+- 📊 **Operationally ready** – metrics, logs, alerting and documented runbooks
 
 ---
 
-## Earlier Work
+## 🧰 Skills & Tools
 
-My GitHub also contains earlier learning projects:
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![AKS](https://img.shields.io/badge/AKS-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Istio](https://img.shields.io/badge/Istio-466BB0?style=for-the-badge&logo=istio&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aqua&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+---
+
+## 📌 Featured Repositories
+
+| Repository | What it does | Status |
+|---|---|---|
+| [**terraform-azure-platform**](https://github.com/pankajdsgithub/terraform-azure-platform) | Modular Azure IaC, reusable Terraform patterns, per-environment tfvars | ![In Progress](https://img.shields.io/badge/-In_Progress-orange?style=flat-square) |
+| [**azure-devops-infra-pipelines**](https://github.com/pankajdsgithub/azure-devops-infra-pipelines) | Reusable infra CI/CD templates + thin consumer pipelines | ![In Progress](https://img.shields.io/badge/-In_Progress-orange?style=flat-square) |
+| **azure-devops-app-pipelines** | Reusable application CI/CD framework | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+| **kubernetes-helm-platform** | Helm charts for Kubernetes apps, env-specific values | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+| **argocd-gitops-platform** | GitOps delivery with Argo CD | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+| **aks-observability-platform** | Monitoring, logging and alerting for AKS | ![In Progress](https://img.shields.io/badge/-In_Progress-orange?style=flat-square) |
+
+> Links will be added as each repository goes live.
+
+---
+
+## 🏗️ Architecture
+
+<p align="center"><img src="assets/architecture.svg" alt="Architecture diagram" width="100%"/></p>
+
+### Delivery workflow
+
+`Source → Build → Secure → Package → Deploy → Operate`
+
+---
+
+## ✅ Build, Validation & Security
+
+Every project follows the same quality gates:
+
+| Gate | Tool | Purpose |
+|---|---|---|
+| Format | `terraform fmt -check` | Consistent code style |
+| Validate | `terraform validate` | Config is syntactically valid |
+| Plan | `terraform plan` | Review changes before apply |
+| Image scan | `trivy image` | Fail on HIGH / CRITICAL vulnerabilities |
+| Pipeline | Azure DevOps | Build, test, publish, deploy |
+
+<p align="center"><img src="assets/validation-results.svg" alt="Build, validation and security results (sample)" width="70%"/></p>
+
+*Sample output shown. Replace with real pipeline logs once projects run.*
+
+---
+
+## 🗺️ Roadmap
+
+- [x] Terraform Azure platform (modular structure)
+- [ ] Reusable Azure DevOps infra pipeline templates
+- [ ] Reusable app CI/CD templates
+- [ ] Helm charts + Argo CD GitOps
+- [ ] AKS observability stack (Prometheus + Grafana)
+- [ ] Istio + Flagger progressive delivery
+
+---
+
+## 📚 Earlier Work
 
 - [Machine Learning](https://github.com/pankajdsgithub/Machine-Learning)
 - [Data Mining](https://github.com/pankajdsgithub/datamining)
 
 ---
 
-## Connect
+<div align="center">
 
-- **GitHub:** [github.com/pankajdsgithub](https://github.com/pankajdsgithub)
-- **LinkedIn:** Add your verified LinkedIn profile URL here.
+**Your GitHub profile is your digital portfolio – make it count.**
 
----
-
-<p align="center">
-  <i>Building secure, reusable, automated, and observable cloud platforms.</i>
-</p>
+</div>
