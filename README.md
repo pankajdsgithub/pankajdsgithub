@@ -81,7 +81,6 @@ I aim to bridge **cloud architecture, DevSecOps automation, platform engineering
 
 *Project statuses reflect current development plans and should be updated as implementation and validation progress.*
 
-
 ## Engineering Workflow
 
 <p align="center">
@@ -92,14 +91,16 @@ I aim to bridge **cloud architecture, DevSecOps automation, platform engineering
   />
 </p>
 
-```
+---
 
 ## Earlier Work
 
 My GitHub also contains earlier learning projects:
 
-- [Machine-Learning](https://github.com/pankajdsgithub/Machine-Learning)
-- [datamining](https://github.com/pankajdsgithub/datamining)
+- [Machine Learning](https://github.com/pankajdsgithub/Machine-Learning)
+- [Data Mining](https://github.com/pankajdsgithub/datamining)
+
+---
 
 ## Connect
 
