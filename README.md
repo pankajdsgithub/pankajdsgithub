@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Pankaj Kumar Tiwari | Azure DevOps · Terraform · AKS · Helm · Argo CD" width="100%"/>
+<img src="assets/banner.svg" alt="Pankaj Kumar Tiwari | Azure DevOps, Terraform, AKS, Helm, Argo CD" width="100%"/>
 
 # Pankaj Kumar Tiwari
 
@@ -20,10 +20,10 @@
 
 I build and standardize cloud infrastructure, platform engineering capabilities and application delivery workflows using **Microsoft Azure, Terraform, Azure DevOps, Kubernetes and GitOps**.
 
-- 🔐 **Secure by default** – least privilege, managed identities, policy and scan gates
-- ♻️ **Reusable by design** – modular Terraform, shared pipeline templates
-- 🚀 **Automated delivery** – repeatable infra provisioning and app deployment
-- 📊 **Operationally ready** – metrics, logs, alerting and documented runbooks
+- 🔐 **Secure by default**: least privilege, managed identities, policy and scan gates
+- ♻️ **Reusable by design**: modular Terraform, shared pipeline templates
+- 🚀 **Automated delivery**: repeatable infrastructure provisioning and app deployment
+- 📊 **Operationally ready**: metrics, logs, alerting and documented runbooks
 
 ---
 
@@ -51,26 +51,53 @@ I build and standardize cloud infrastructure, platform engineering capabilities 
 
 ## 📌 Featured Repositories
 
-| Repository | What it does | Status |
-|---|---|---|
-| [**terraform-azure-platform**](https://github.com/pankajdsgithub/terraform-azure-platform) | Modular Azure IaC, reusable Terraform patterns, per-environment tfvars | ![In Progress](https://img.shields.io/badge/-In_Progress-orange?style=flat-square) |
-| [**azure-devops-infra-pipelines**](https://github.com/pankajdsgithub/azure-devops-infra-pipelines) | Reusable infra CI/CD templates + thin consumer pipelines | ![In Progress](https://img.shields.io/badge/-In_Progress-orange?style=flat-square) |
-| **azure-devops-app-pipelines** | Reusable application CI/CD framework | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
-| **kubernetes-helm-platform** | Helm charts for Kubernetes apps, env-specific values | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
-| **argocd-gitops-platform** | GitOps delivery with Argo CD | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
-| **aks-observability-platform** | Monitoring, logging and alerting for AKS | ![In Progress](https://img.shields.io/badge/-In_Progress-orange?style=flat-square) |
+### Infrastructure as Code
 
-> Links will be added as each repository goes live.
+| Repository | What it does | Tech | Status |
+|---|---|---|---|
+| [**terraform-azure-platform**](https://github.com/pankajdsgithub/terraform-azure-platform) | Modular Azure IaC, reusable patterns, per-environment tfvars | `Terraform` `Azure` | ![In Progress](https://img.shields.io/badge/-In_Progress-orange?style=flat-square) |
+| **terraform-aks-cluster** | Production-style AKS cluster with node pools, networking and managed identity | `Terraform` `AKS` | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+| **azure-policy-governance** | Azure Policy and RBAC as code: tagging, allowed regions, security baselines | `Terraform` `Azure Policy` | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+
+### CI/CD & DevSecOps
+
+| Repository | What it does | Tech | Status |
+|---|---|---|---|
+| [**azure-devops-infra-pipelines**](https://github.com/pankajdsgithub/azure-devops-infra-pipelines) | Reusable infra pipeline templates and thin consumer pipelines | `YAML` `Azure DevOps` | ![In Progress](https://img.shields.io/badge/-In_Progress-orange?style=flat-square) |
+| **azure-devops-app-pipelines** | Reusable application CI/CD framework (build, test, scan, publish) | `YAML` `Docker` | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+| **devsecops-security-scanning** | Trivy image scan, secret scan and IaC scan gates for pipelines | `Trivy` `Bash` | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+| **github-actions-reusable-workflows** | Shared GitHub Actions workflows for lint, validate and release | `GitHub Actions` | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+
+### Kubernetes, GitOps & Observability
+
+| Repository | What it does | Tech | Status |
+|---|---|---|---|
+| **kubernetes-helm-platform** | Helm charts and environment-specific deployment values | `Helm` `Kubernetes` | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+| **argocd-gitops-platform** | Declarative delivery and GitOps sync with Argo CD | `Argo CD` `Shell` | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+| **aks-observability-platform** | Monitoring, dashboards, logs and alerting for AKS | `Prometheus` `Grafana` | ![In Progress](https://img.shields.io/badge/-In_Progress-orange?style=flat-square) |
+| **istio-flagger-progressive-delivery** | Canary releases with Istio traffic shifting and Flagger | `Istio` `Flagger` | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+
+> Repository links are added as each project goes live.
 
 ---
 
 ## 🏗️ Architecture
 
-<p align="center"><img src="assets/architecture.svg" alt="Architecture diagram" width="100%"/></p>
+```mermaid
+flowchart LR
+    U[Engineer] -->|git push| R[Git Repository]
+    R --> P[Azure DevOps Pipelines]
+    P -->|fmt, validate, plan| T[Terraform Modules]
+    P -->|build, scan| I[Container Image + Trivy]
+    T -->|apply| A[(Azure: VNet, ACR, AKS, Key Vault)]
+    I --> ACR[Azure Container Registry]
+    ACR --> G[Helm charts / manifests in Git]
+    G -->|sync| AC[Argo CD]
+    AC -->|deploy| K[AKS Cluster]
+    K --> O[Prometheus, Grafana, Logs]
+```
 
-### Delivery workflow
-
-`Source → Build → Secure → Package → Deploy → Operate`
+**Delivery workflow:** `Source → Build → Secure → Package → Deploy → Operate`
 
 ---
 
@@ -81,14 +108,23 @@ Every project follows the same quality gates:
 | Gate | Tool | Purpose |
 |---|---|---|
 | Format | `terraform fmt -check` | Consistent code style |
-| Validate | `terraform validate` | Config is syntactically valid |
+| Validate | `terraform validate` | Configuration is valid |
 | Plan | `terraform plan` | Review changes before apply |
 | Image scan | `trivy image` | Fail on HIGH / CRITICAL vulnerabilities |
 | Pipeline | Azure DevOps | Build, test, publish, deploy |
 
-<p align="center"><img src="assets/validation-results.svg" alt="Build, validation and security results (sample)" width="70%"/></p>
+Sample output (illustrative; real run logs are added per project):
 
-*Sample output shown. Replace with real pipeline logs once projects run.*
+```text
+$ terraform fmt -check
+(no output: all files are properly formatted)
+
+$ terraform validate
+Success! The configuration is valid.
+
+$ trivy image --severity HIGH,CRITICAL <image>:<tag>
+Total: 0 (HIGH: 0, CRITICAL: 0)
+```
 
 ---
 
@@ -97,9 +133,11 @@ Every project follows the same quality gates:
 - [x] Terraform Azure platform (modular structure)
 - [ ] Reusable Azure DevOps infra pipeline templates
 - [ ] Reusable app CI/CD templates
+- [ ] DevSecOps scanning gates (Trivy)
 - [ ] Helm charts + Argo CD GitOps
 - [ ] AKS observability stack (Prometheus + Grafana)
 - [ ] Istio + Flagger progressive delivery
+- [ ] Azure Policy governance as code
 
 ---
 
@@ -112,6 +150,6 @@ Every project follows the same quality gates:
 
 <div align="center">
 
-**Your GitHub profile is your digital portfolio – make it count.**
+**Your GitHub profile is your digital portfolio. Make it count.**
 
 </div>
