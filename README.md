@@ -51,6 +51,24 @@ I build and standardize cloud infrastructure, platform engineering capabilities 
 
 ## 📌 Featured Repositories
 
+### 🏛️ Cloud Architecture & Azure Landing Zones
+
+**Greenfield (new Azure environments)**
+
+| Repository | What it does | Tech | Status |
+|---|---|---|---|
+| **azure-landing-zone-greenfield** | Enterprise-scale landing zone: management groups, policy, identity, connectivity, management | `Terraform` `Azure Policy` | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+| **azure-hub-spoke-network** | Hub-and-spoke network with Azure Firewall, Bastion, private DNS and private endpoints | `Terraform` `Azure Networking` | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+| **azure-subscription-vending** | Automated subscription vending with baseline policy, RBAC and networking | `Terraform` `Azure DevOps` | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+
+**Migration (from on-premises or other clouds)**
+
+| Repository | What it does | Tech | Status |
+|---|---|---|---|
+| **onprem-to-azure-migration-landing-zone** | Landing zone and wave plan for datacenter migration: Azure Migrate, ExpressRoute / VPN, hybrid identity | `Azure Migrate` `Terraform` | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+| **aws-gcp-to-azure-migration** | Multi-cloud to Azure migration: assessment, 6R strategy, target design, cutover runbooks | `Architecture` `Azure` | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+| **hybrid-connectivity-and-arc** | Hybrid connectivity patterns and Azure Arc for servers and Kubernetes during transition | `Azure Arc` `ExpressRoute` | ![Planned](https://img.shields.io/badge/-Planned-lightgrey?style=flat-square) |
+
 ### Infrastructure as Code
 
 | Repository | What it does | Tech | Status |
@@ -83,21 +101,117 @@ I build and standardize cloud infrastructure, platform engineering capabilities 
 
 ## 🏗️ Architecture
 
+### Platform delivery (CI/CD → GitOps → AKS)
+
 ```mermaid
 flowchart LR
-    U[Engineer] -->|git push| R[Git Repository]
-    R --> P[Azure DevOps Pipelines]
-    P -->|fmt, validate, plan| T[Terraform Modules]
-    P -->|build, scan| I[Container Image + Trivy]
-    T -->|apply| A[(Azure: VNet, ACR, AKS, Key Vault)]
-    I --> ACR[Azure Container Registry]
-    ACR --> G[Helm charts / manifests in Git]
-    G -->|sync| AC[Argo CD]
-    AC -->|deploy| K[AKS Cluster]
-    K --> O[Prometheus, Grafana, Logs]
+    subgraph SRC["1. Source"]
+        U(["👤 Engineer"]) -->|git push| R["Git Repository"]
+    end
+
+    subgraph CI["2. CI/CD and Security Gates"]
+        P["Azure DevOps Pipelines"]
+        Q{{"fmt · validate · plan"}}
+        S{{"Trivy image scan"}}
+        P --> Q
+        P --> S
+    end
+
+    subgraph IAC["3. Infrastructure as Code"]
+        T["Terraform Modules"]
+        A[("Azure: VNet · ACR · AKS · Key Vault")]
+        T -->|apply| A
+    end
+
+    subgraph GITOPS["4. GitOps Delivery"]
+        ACR["Azure Container Registry"]
+        H["Helm charts in Git"]
+        AC["Argo CD"]
+        ACR --> H -->|sync| AC
+    end
+
+    subgraph RUN["5. Run and Observe"]
+        K["AKS Cluster"]
+        O["Prometheus · Grafana · Logs"]
+        K --> O
+    end
+
+    R --> P
+    Q --> T
+    S --> ACR
+    AC -->|deploy| K
+
+    classDef src fill:#E8F1FF,stroke:#2F6FDB,color:#0B1F3A,stroke-width:2px
+    classDef ci fill:#E0F4FF,stroke:#0078D4,color:#0B1F3A,stroke-width:2px
+    classDef gate fill:#FFF4CC,stroke:#E0A800,color:#5C4400,stroke-width:2px
+    classDef iac fill:#F1E8FB,stroke:#7B42BC,color:#2E1A4D,stroke-width:2px
+    classDef azure fill:#D6ECFF,stroke:#0078D4,color:#0B1F3A,stroke-width:2px
+    classDef gitops fill:#FFE9DC,stroke:#EF7B4D,color:#6B2A0B,stroke-width:2px
+    classDef k8s fill:#DCE7FF,stroke:#326CE5,color:#0B1F3A,stroke-width:2px
+    classDef obs fill:#FFE0DC,stroke:#E6522C,color:#6B1A0B,stroke-width:2px
+
+    class U,R src
+    class P ci
+    class Q,S gate
+    class T iac
+    class A azure
+    class ACR,H,AC gitops
+    class K k8s
+    class O obs
+
+    style SRC fill:#F5F9FF,stroke:#9DB7D8,stroke-dasharray: 4 4
+    style CI fill:#F0FAFF,stroke:#7CC4F0,stroke-dasharray: 4 4
+    style IAC fill:#FAF6FE,stroke:#B99AE0,stroke-dasharray: 4 4
+    style GITOPS fill:#FFF8F3,stroke:#F5B293,stroke-dasharray: 4 4
+    style RUN fill:#F4F7FF,stroke:#9DB4EE,stroke-dasharray: 4 4
 ```
 
 **Delivery workflow:** `Source → Build → Secure → Package → Deploy → Operate`
+
+### Azure Landing Zone (hub-spoke)
+
+```mermaid
+flowchart TB
+    ROOT["Tenant Root Management Group"]
+    ROOT --> PLAT["Platform"]
+    ROOT --> LZ["Landing Zones"]
+    ROOT --> SBX["Sandbox"]
+    ROOT --> DEC["Decommissioned"]
+
+    PLAT --> ID["Identity"]
+    PLAT --> MG["Management"]
+    PLAT --> CN["Connectivity"]
+
+    LZ --> CORP["Corp (private workloads)"]
+    LZ --> ONL["Online (internet-facing)"]
+
+    CN --> HUB(("Hub VNet<br/>Firewall · Bastion · DNS · VPN / ExpressRoute"))
+    HUB --- SP1["Spoke: Corp apps"]
+    HUB --- SP2["Spoke: Online apps"]
+    HUB --- SP3["Spoke: Shared services"]
+    HUB -.->|"hybrid link"| ONP[["On-premises / other cloud"]]
+
+    CORP -.-> SP1
+    ONL -.-> SP2
+
+    classDef root fill:#0B1F3A,stroke:#0B1F3A,color:#FFFFFF,stroke-width:2px
+    classDef plat fill:#E0F4FF,stroke:#0078D4,color:#0B1F3A,stroke-width:2px
+    classDef lz fill:#E6F7EC,stroke:#2E9E5B,color:#0B3D1F,stroke-width:2px
+    classDef sbx fill:#FFF4CC,stroke:#E0A800,color:#5C4400,stroke-width:2px
+    classDef dec fill:#EDEDED,stroke:#8A8A8A,color:#333333,stroke-width:2px
+    classDef hub fill:#F1E8FB,stroke:#7B42BC,color:#2E1A4D,stroke-width:3px
+    classDef spoke fill:#FFE9DC,stroke:#EF7B4D,color:#6B2A0B,stroke-width:2px
+    classDef onp fill:#FFE0DC,stroke:#E6522C,color:#6B1A0B,stroke-width:2px
+
+    class ROOT root
+    class PLAT,ID,MG,CN plat
+    class LZ,CORP,ONL lz
+    class SBX sbx
+    class DEC dec
+    class HUB hub
+    class SP1,SP2,SP3 spoke
+    class ONP onp
+```
 
 ---
 
@@ -138,6 +252,8 @@ Total: 0 (HIGH: 0, CRITICAL: 0)
 - [ ] AKS observability stack (Prometheus + Grafana)
 - [ ] Istio + Flagger progressive delivery
 - [ ] Azure Policy governance as code
+- [ ] Azure Landing Zone: greenfield design (management groups, hub-spoke, policy)
+- [ ] Azure Landing Zone: migration design (on-premises and other clouds to Azure)
 
 ---
 
