@@ -103,6 +103,38 @@ This profile reflects the core Azure solution architecture pattern I work with:
 
 ---
 
+## Cloud migration and modernization approach
+
+The portfolio reflects an Azure-first transformation model that moves from assessment to governed adoption.
+
+```mermaid
+flowchart LR
+    A[Discover / Assess] --> B[Landing Zone Foundation]
+    B --> C[Identity + Connectivity + Policy]
+    C --> D[Migration Waves]
+    D --> E[Application Modernization]
+    E --> F[Observability + Security + Cost Control]
+    F --> G[Operate / Optimize]
+```
+
+This delivery pattern connects:
+
+- discovery and dependency assessment
+- landing zone design, governance, and Azure readiness
+- hybrid connectivity, Azure Arc, and secure access patterns
+- phased migration waves with cutover and rollback readiness
+- security, observability, cost governance, and operational ownership
+
+---
+
+## Portfolio architecture documents
+
+- [Azure Cloud Transformation Blueprint](docs/azure-cloud-transformation-architecture.md)
+
+This document captures the reference architecture used to position the portfolio around Azure solution design, cloud migration, landing zones, and platform engineering.
+
+---
+
 ## Portfolio roadmap
 
 - [x] Azure platform foundation repository
