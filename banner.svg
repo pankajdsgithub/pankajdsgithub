@@ -1,26 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B1F3A"/>
+      <stop offset="0" stop-color="#071A2F"/>
+      <stop offset="0.5" stop-color="#0C2D4F"/>
       <stop offset="1" stop-color="#0F4C9A"/>
     </linearGradient>
-    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2F9BFF"/>
-      <stop offset="1" stop-color="#7B42BC"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5CC8FF"/>
+      <stop offset="1" stop-color="#7EB8FF"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="300" rx="14" fill="url(#bg)"/>
-  <g opacity="0.12" stroke="#ffffff" stroke-width="1">
-    <path d="M0 240 H1200 M0 200 H1200 M0 160 H1200"/>
-    <path d="M200 0 V300 M400 0 V300 M600 0 V300 M800 0 V300 M1000 0 V300"/>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+
+  <g opacity="0.12" stroke="#EAF6FF" stroke-width="1">
+    <path d="M0 235 H1200 M0 190 H1200 M0 145 H1200"/>
+    <path d="M180 0 V300 M360 0 V300 M540 0 V300 M720 0 V300 M900 0 V300 M1080 0 V300"/>
   </g>
-  <!-- cloud + code icon -->
-  <g transform="translate(540,34)" fill="none" stroke="#6FC3FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M30 70 a24 24 0 0 1 4 -47 a34 34 0 0 1 64 8 a22 22 0 0 1 -2 39 z"/>
-    <path d="M52 40 l-12 12 l12 12 M78 40 l12 12 l-12 12"/>
+
+  <g transform="translate(90 50)" fill="none" stroke="#8AD7FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 65 a22 22 0 0 1 4 -42 a31 31 0 0 1 58 7 a19 19 0 0 1 -2 38 z"/>
+    <path d="M52 42 L38 57 L52 72 M80 42 L94 57 L80 72"/>
   </g>
-  <text x="600" y="150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" fill="#FFFFFF">Pankaj Kumar Tiwari</text>
-  <text x="600" y="188" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#CFE6FF">Azure  |  Terraform  |  AKS  |  Helm  |  Argo CD  |  Istio  |  DevOps</text>
-  <rect x="470" y="204" width="260" height="4" rx="2" fill="url(#acc)"/>
-  <text x="600" y="245" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="22" fill="#9FD0FF">Build · Automate · Deploy</text>
+
+  <text x="600" y="140" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" fill="#FFFFFF">Pankaj Kumar Tiwari</text>
+  <text x="600" y="180" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#D6EDFF">Azure Solution Architect | Landing Zones | Platform Engineering | DevSecOps</text>
+  <rect x="395" y="202" width="410" height="4" rx="2" fill="url(#accent)"/>
+  <text x="600" y="238" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#B8E1FF">Terraform • Azure DevOps • AKS • Governance • Automation</text>
 </svg>
