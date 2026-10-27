@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400" font-family="Consolas, 'Courier New', monospace">
   <rect width="700" height="400" rx="12" fill="#0D1B2A"/>
   <circle cx="24" cy="22" r="6" fill="#FF5F56"/><circle cx="44" cy="22" r="6" fill="#FFBD2E"/><circle cx="64" cy="22" r="6" fill="#27C93F"/>
-  <text x="350" y="27" text-anchor="middle" font-size="12" fill="#7F93AD">platform validation workflow</text>
+  <text x="350" y="27" text-anchor="middle" font-size="12" fill="#7F93AD">illustrative platform validation workflow</text>
 
   <text x="30" y="68" font-size="15" font-weight="700" fill="#FFFFFF">Terraform validation</text>
   <text x="30" y="92" font-size="13" fill="#9FB3C8">$ terraform fmt -check</text>
-  <text x="30" y="112" font-size="13" fill="#4ADE80">✓ formatting check</text>
+  <text x="30" y="112" font-size="13" fill="#9FB3C8">Formatting check — run required</text>
   <text x="30" y="136" font-size="13" fill="#9FB3C8">$ terraform validate</text>
-  <text x="30" y="156" font-size="13" fill="#4ADE80">✓ configuration validation</text>
+  <text x="30" y="156" font-size="13" fill="#9FB3C8">Configuration validation — run required</text>
 
   <text x="30" y="200" font-size="15" font-weight="700" fill="#FFFFFF">Security and pipeline gates</text>
   <text x="30" y="224" font-size="13" fill="#9FB3C8">$ terraform plan</text>
-  <text x="30" y="244" font-size="13" fill="#4ADE80">✓ change review before apply</text>
+  <text x="30" y="244" font-size="13" fill="#9FB3C8">Review planned changes before apply</text>
   <text x="30" y="268" font-size="13" fill="#9FB3C8">$ trivy image --severity HIGH,CRITICAL &lt;image&gt;</text>
-  <text x="30" y="288" font-size="13" fill="#4ADE80">✓ scan as policy gate</text>
+  <text x="30" y="288" font-size="13" fill="#9FB3C8">Security scan gate — run required</text>
 
-  <text x="30" y="332" font-size="13" fill="#D8E9FF">Portfolio note: real project validation logs are added per repository.</text>
+  <text x="30" y="332" font-size="13" fill="#D8E9FF">Illustrative workflow only — results depend on actual repository runs.</text>
 </svg>
