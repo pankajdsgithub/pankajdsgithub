@@ -1,173 +1,111 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Pankaj Kumar Tiwari | Azure Solution Architect" width="100%" />
+<img src="assets/banner.svg" alt="Pankaj Kumar Tiwari | Enterprise Technology and AI Transformation Leader" width="100%" />
 
 # Pankaj Kumar Tiwari
 
-### Azure Solution Architect | Cloud Transformation | Platform Engineering | Azure Landing Zones
+### Enterprise Technology &amp; AI Transformation Leader
+
+**Azure Solution Architecture | DevOps &amp; Platform Engineering | Enterprise AI Consulting | Cloud Transformation | Application Delivery**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pankajdsgithub)
 
 </div>
 
----
+## Professional value proposition
 
-## About
+I help enterprise organizations modernize their technology landscape through secure Azure architecture, intelligent automation, enterprise AI adoption, DevOps transformation and end-to-end application delivery.
 
-Azure Solution Architect and Platform Engineer helping organizations accelerate cloud transformation through secure, scalable, and governable Azure platforms. I design landing zone foundations, automate platform delivery with Terraform, and enable migration and modernization programs that align technology, security, and operations with business outcomes.
+I bridge business strategy, enterprise architecture, AI innovation and engineering execution. My work focuses on translating complex requirements into governed, scalable and measurable solutions.
 
-- Azure solution architecture and target-state design
-- Cloud transformation and enterprise modernization programs
-- Azure landing zones, governance, and platform baselines
-- Terraform-based infrastructure automation and reusable IaC patterns
-- Azure DevOps pipelines and secure-by-default delivery workflows
-- AKS and Kubernetes enablement for modern application platforms
-- Migration readiness, modernization strategy, and resilient cloud operations
+## Leadership capabilities
 
----
+- Enterprise Azure solution architecture and target-state design
+- Azure Landing Zones, governance, identity and platform foundations
+- DevSecOps, Azure DevOps and GitHub Actions delivery engineering
+- Terraform, GitOps and reusable infrastructure automation
+- Enterprise AI readiness, strategy and use-case prioritization
+- Generative AI, RAG and agentic AI reference architectures
+- AI governance, responsible AI, security and human-in-the-loop controls
+- Cloud transformation, application modernization and project delivery
 
-## Core competencies
+## Core technology portfolio
 
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Microsoft%20Foundry](https://img.shields.io/badge/Microsoft_Foundry-0078D4?style=for-the-badge)
+![Azure%20AI%20Search](https://img.shields.io/badge/Azure_AI_Search-0078D4?style=for-the-badge)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Azure%20Landing%20Zones](https://img.shields.io/badge/Azure_Landing_Zones-0078D4?style=for-the-badge)
 ![Azure%20DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
-![Azure%20Arc](https://img.shields.io/badge/Azure_Arc-0078D4?style=for-the-badge)
 ![AKS](https://img.shields.io/badge/AKS-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Azure%20Policy](https://img.shields.io/badge/Azure_Policy-0078D4?style=for-the-badge)
-![Migration%20%26%20Modernization](https://img.shields.io/badge/Migration_%26_Modernization-0F172A?style=for-the-badge)
-![DevSecOps](https://img.shields.io/badge/DevSecOps-1F6FEB?style=for-the-badge)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
----
+## Enterprise AI Solutions &amp; Transformation
 
-## Featured portfolio projects
+My AI portfolio is organized around practical, reference and demonstration solutions rather than unverified production claims:
+
+- **Enterprise AI Knowledge Assistant** — RAG architecture for organizational documents, grounded responses and source citations
+- **Enterprise AI Agent Platform** — Tool-governed agent workflows with approval boundaries and auditability
+- **AI-Powered IT Operations Assistant** — Alert correlation and incident analysis using Azure Monitor and Log Analytics
+- **AI-Enabled DevOps Engineering Assistant** — Terraform, Kubernetes, pipelines, security findings and release analysis
+- **Enterprise Document Intelligence** — Extraction, classification, validation and workflow automation for business documents
+
+The portfolio emphasizes responsible AI, identity and access controls, prompt-injection defenses, output validation, human approval, cost monitoring and operational governance.
+
+## Enterprise cloud engineering
+
+```mermaid
+flowchart LR
+    A[Business Strategy] --> B[AI &amp; Cloud Readiness]
+    B --> C[Architecture &amp; Use-Case Prioritization]
+    C --> D[Reference Architecture / Proof of Concept]
+    D --> E[Security, Governance &amp; Model Evaluation]
+    E --> F[Infrastructure as Code &amp; CI/CD]
+    F --> G[Azure Landing Zone &amp; AI Workload]
+    G --> H[Monitoring, FinOps &amp; Continuous Improvement]
+```
+
+## Featured portfolio repositories
 
 | Repository | Focus | Status |
 |---|---|---|
-| [terraform-azure-platform](https://github.com/pankajdsgithub/terraform-azure-platform) | Secure Azure infrastructure foundation with reusable Terraform patterns and environment-aware configuration | Active |
-| [azure-landing-zone-greenfield](https://github.com/pankajdsgithub/azure-landing-zone-greenfield) | Greenfield landing zone concepts covering governance, connectivity, identity, and platform baselines | Public reference |
-| Migration & Modernization | Azure transformation strategy, landing zone readiness, governance uplift, and secure platform modernization for legacy estates | Focus area |
+| [enterprise-azure-landing-zone](https://github.com/pankajdsgithub/enterprise-azure-landing-zone) | Enterprise Azure platform, governance, connectivity and reusable Terraform patterns | Public reference |
+| [azure-landing-zone-greenfield](https://github.com/pankajdsgithub/azure-landing-zone-greenfield) | Greenfield landing zone architecture and implementation guidance | Public reference |
+| [terraform-azure-platform](https://github.com/pankajdsgithub/terraform-azure-platform) | Terraform-based Azure infrastructure foundation | Public reference |
+| [secure-azure-genai](https://github.com/pankajdsgithub/secure-azure-genai) | Secure Azure generative AI architecture and delivery patterns | Reference / working area |
 
-> The portfolio emphasizes real Azure platform engineering work, governance-driven automation, and enterprise cloud transformation patterns.
+Repository status and deployment maturity are documented in each project. Reference architectures and demonstrations are not represented as production implementations without evidence.
 
----
+## Professional positioning
 
-## Cloud transformation and migration focus
+Target roles include:
 
-I support Azure transformation initiatives spanning landing zone readiness, modernization planning, and secure platform enablement for enterprise workloads.
+- Enterprise AI Consultant
+- AI Solution Architect
+- Azure AI Architect
+- Enterprise AI Transformation Consultant
+- Generative AI Consultant
+- AI Platform Architect
+- AI and Cloud Transformation Lead
+- Enterprise Automation Architect
+- AI-enabled DevOps Transformation Lead
 
-- Azure migration strategy and target-state architecture
-- Hybrid connectivity, Azure Arc, and workload transition planning
-- Landing zone design for greenfield and brownfield estates
-- Platform governance uplift for legacy environments
-- Secure-by-default modernization patterns for enterprise workloads
-- Operating model alignment across security, governance, and platform teams
+## Engineering principles
 
----
-
-## What I design
-
-- Secure Azure landing zones and enterprise platform foundations
-- Terraform-driven infrastructure with environment-aware configuration
-- CI/CD pipelines for standardized provisioning and release workflows
-- AKS and Kubernetes platform enablement with governance guardrails
-- DevSecOps controls that support secure-by-default delivery
-- Scalable cloud operating models for transformation and modernization programs
-
----
-
-## Architecture focus
-
-```mermaid
-flowchart LR
-    A[Platform Team] --> B[Source Control]
-    B --> C[Azure DevOps / CI]
-    C --> D[Terraform Modules]
-    D --> E[Azure Landing Zone]
-    E --> F[Networking + Identity + Policy]
-    E --> G[AKS / Platform Services]
-    G --> H[Observability + Security + Governance]
-```
-
-This profile reflects the core Azure solution architecture pattern I work with:
-
-- Source control and review-driven delivery
-- CI checks for formatting, validation, and quality gates
-- Terraform as the standard for infrastructure provisioning
-- Azure landing zone baselines for security and governance
-- AKS and platform services on top of a governed foundation
-
----
-
-## Cloud migration and modernization approach
-
-The portfolio reflects an Azure-first transformation model that moves from assessment to governed adoption.
-
-```mermaid
-flowchart LR
-    A[Discover / Assess] --> B[Landing Zone Foundation]
-    B --> C[Identity + Connectivity + Policy]
-    C --> D[Migration Waves]
-    D --> E[Application Modernization]
-    E --> F[Observability + Security + Cost Control]
-    F --> G[Operate / Optimize]
-```
-
-This delivery pattern connects:
-
-- discovery and dependency assessment
-- landing zone design, governance, and Azure readiness
-- hybrid connectivity, Azure Arc, and secure access patterns
-- phased migration waves with cutover and rollback readiness
-- security, observability, cost governance, and operational ownership
-
----
-
-## Portfolio architecture documents
-
-- [Azure Cloud Transformation Blueprint](docs/azure-cloud-transformation-architecture.md)
-
-This document captures the reference architecture used to position the portfolio around Azure solution design, cloud migration, landing zones, and platform engineering.
-
----
-
-## Portfolio roadmap
-
-- [x] Azure platform foundation repository
-- [ ] Reusable Azure DevOps pipeline templates
-- [ ] Governance and policy automation patterns
-- [ ] AKS delivery and GitOps workflows
-- [ ] Security scanning and platform hardening patterns
-- [ ] Azure migration and modernization architecture patterns
-- [ ] Hybrid connectivity and Azure Arc enablement patterns
-- [ ] Cloud transformation playbooks for enterprise platform teams
-
----
-
-## Repository standards
-
-The portfolio follows a disciplined cloud engineering approach:
-
-- secure-by-default design and policy-led governance
-- infrastructure as code for repeatability and scalability
-- clear separation between platform baseline and workload delivery
-- environment-aware configuration with validation before change
-- automation that supports governance, resilience, and operational consistency
-
----
-
-## GitHub
-
-[GitHub Profile](https://github.com/pankajdsgithub)
+- Business outcomes before technology choices
+- Secure-by-default and policy-led governance
+- Infrastructure and application delivery as code
+- Least privilege and human approval for sensitive actions
+- Model, prompt, retrieval and configuration versioning
+- Evaluation gates before production deployment
+- Observable, cost-aware and reversible operations
+- Clear separation of reference, prototype, lab and production states
 
 ---
 
 <div align="center">
 
-**Azure platform engineering with security, automation, and governance at the center.**
+**Advising what to build. Designing how to build it. Leading secure implementation and delivery.**
 
 </div>
