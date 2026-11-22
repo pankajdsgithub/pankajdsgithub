@@ -1,22 +1,22 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Pankaj Kumar Tiwari | Enterprise Technology and AI Transformation Leader" width="100%" />
+<img src="assets/banner-enterprise.svg" alt="Pankaj Kumar Tiwari | Enterprise Technology and AI Transformation Leader" width="100%" />
 
 # Pankaj Kumar Tiwari
 
 ### Enterprise Technology &amp; AI Transformation Leader
 
-**Azure Solution Architecture | DevOps &amp; Platform Engineering | Enterprise AI Consulting | Cloud Transformation | Application Delivery**
+**Azure Solution Architecture · DevSecOps &amp; Platform Engineering · Enterprise AI Consulting · Cloud Transformation · Application Delivery**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pankajdsgithub)
 
 </div>
 
-## Professional value proposition
+## Executive profile
 
-I help enterprise organizations modernize their technology landscape through secure Azure architecture, intelligent automation, enterprise AI adoption, DevOps transformation and end-to-end application delivery.
+I help enterprise organizations modernize their technology landscape through secure Azure architecture, intelligent automation, AI adoption, DevSecOps transformation and end-to-end application delivery.
 
-I bridge business strategy, enterprise architecture, AI innovation and engineering execution. My work focuses on translating complex requirements into governed, scalable and measurable solutions.
+My value is the ability to connect business strategy, enterprise architecture, AI innovation and engineering execution—then translate them into governed, scalable and measurable solutions.
 
 ## Leadership capabilities
 
