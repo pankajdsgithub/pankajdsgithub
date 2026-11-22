@@ -16,7 +16,7 @@
 
 I help enterprise organizations modernize their technology landscape through secure Azure architecture, intelligent automation, AI adoption, DevSecOps transformation and end-to-end application delivery.
 
-My value is the ability to connect business strategy, enterprise architecture, AI innovation and engineering execution—then translate them into governed, scalable and measurable solutions.
+I bridge business strategy, enterprise architecture, AI innovation and engineering execution—translating strategy into governed, scalable and measurable solutions.
 
 ## Leadership capabilities
 

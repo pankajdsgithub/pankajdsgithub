@@ -1,72 +1,78 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-labelledby="title description">
   <title id="title">Pankaj Kumar Tiwari — Enterprise Technology and AI Transformation Leader</title>
-  <desc id="description">Executive profile banner for enterprise cloud architecture, AI transformation, platform engineering and application delivery.</desc>
+  <desc id="description">Executive enterprise technology, Azure architecture, AI transformation and platform engineering profile banner.</desc>
+
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#081827"/>
-      <stop offset="0.58" stop-color="#102A43"/>
-      <stop offset="1" stop-color="#163D63"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071827"/>
+      <stop offset="0.55" stop-color="#0D2A45"/>
+      <stop offset="1" stop-color="#123E61"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#63D4F4"/>
-      <stop offset="1" stop-color="#A8B8FF"/>
+      <stop offset="0" stop-color="#57C9E8"/>
+      <stop offset="1" stop-color="#A7B7FF"/>
     </linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#020B14" flood-opacity="0.28"/>
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#020B14" flood-opacity="0.28"/>
     </filter>
   </defs>
 
-  <rect width="1600" height="500" fill="url(#background)"/>
-  <circle cx="1410" cy="70" r="270" fill="#63D4F4" opacity="0.035"/>
-  <circle cx="1490" cy="430" r="220" fill="#A8B8FF" opacity="0.030"/>
-  <path d="M760 0V500" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect width="1600" height="420" fill="url(#bg)"/>
+  <circle cx="1450" cy="80" r="260" fill="#62CCE9" opacity="0.035"/>
+  <circle cx="1510" cy="390" r="210" fill="#A7B7FF" opacity="0.035"/>
 
   <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="90" y="108" fill="#FFFFFF" font-size="54" font-weight="700" letter-spacing="1">PANKAJ KUMAR TIWARI</text>
-    <rect x="92" y="136" width="118" height="4" rx="2" fill="url(#accent)"/>
+    <text x="86" y="96" fill="#FFFFFF" font-size="48" font-weight="700" letter-spacing="0.5">PANKAJ KUMAR TIWARI</text>
+    <rect x="88" y="122" width="112" height="4" rx="2" fill="url(#accent)"/>
 
-    <text x="92" y="202" fill="#9FE4F7" font-size="23" font-weight="700" letter-spacing="3">ENTERPRISE TECHNOLOGY &amp; AI TRANSFORMATION LEADER</text>
+    <text x="88" y="178" fill="#72D2EC" font-size="20" font-weight="700" letter-spacing="2.2">ENTERPRISE TECHNOLOGY &amp; AI TRANSFORMATION LEADER</text>
 
-    <text x="92" y="262" fill="#FFFFFF" font-size="25" font-weight="600">Azure Solution Architecture</text>
-    <circle cx="416" cy="254" r="4" fill="#63D4F4"/>
-    <text x="438" y="262" fill="#FFFFFF" font-size="25" font-weight="600">DevSecOps &amp; Platform Engineering</text>
+    <text x="88" y="224" fill="#FFFFFF" font-size="23" font-weight="600">Azure Solution Architecture</text>
 
-    <text x="92" y="314" fill="#D9E8F3" font-size="21">Enterprise AI Consulting</text>
-    <circle cx="360" cy="306" r="4" fill="#63D4F4"/>
-    <text x="382" y="314" fill="#D9E8F3" font-size="21">Cloud Transformation</text>
-    <circle cx="618" cy="306" r="4" fill="#63D4F4"/>
-    <text x="640" y="314" fill="#D9E8F3" font-size="21">Application Delivery</text>
+    <text x="88" y="264" fill="#C7D7E5" font-size="20">DevSecOps &amp; Platform Engineering</text>
 
-    <text x="92" y="390" fill="#A9C1D4" font-size="18" font-weight="500">Secure architecture · Responsible AI · Intelligent automation · Measurable delivery</text>
+    <text x="88" y="304" fill="#C7D7E5" font-size="20">Enterprise AI Consulting  ·  Cloud Transformation</text>
+
+    <text x="88" y="344" fill="#C7D7E5" font-size="18">Application Delivery  ·  Intelligent Automation  ·  Governance</text>
+
+    <text x="88" y="382" fill="#91AABD" font-size="16">Secure architecture · Responsible AI · Measurable enterprise outcomes</text>
   </g>
 
   <g filter="url(#shadow)" font-family="Segoe UI, Arial, sans-serif">
-    <rect x="826" y="78" width="674" height="344" rx="18" fill="#0B2034" fill-opacity="0.92" stroke="#82D4EF" stroke-opacity="0.22"/>
+    <rect x="820" y="70" width="680" height="278" rx="16" fill="#0A2033" fill-opacity="0.96" stroke="#79D2EF" stroke-opacity="0.24"/>
 
-    <text x="866" y="122" fill="#A7DDF0" font-size="14" font-weight="700" letter-spacing="2.2">ENTERPRISE DELIVERY MODEL</text>
+    <text x="858" y="112" fill="#99CEE2" font-size="13" font-weight="700" letter-spacing="2.2">ENTERPRISE DELIVERY MODEL</text>
 
-    <g transform="translate(866 158)">
-      <rect width="594" height="64" rx="12" fill="#163650" stroke="#70CBEC" stroke-opacity="0.28"/>
-      <rect x="18" y="18" width="28" height="28" rx="8" fill="#63D4F4"/>
-      <text x="32" y="38" text-anchor="middle" fill="#082136" font-size="16" font-weight="800">01</text>
-      <text x="62" y="29" fill="#FFFFFF" font-size="18" font-weight="700">Strategy &amp; Architecture</text>
-      <text x="62" y="50" fill="#B7CCDA" font-size="14">Business outcomes, roadmap and target-state design</text>
+    <g>
+      <rect x="858" y="136" width="294" height="82" rx="12" fill="#14344F" stroke="#79D2EF" stroke-opacity="0.18"/>
+      <rect x="878" y="158" width="36" height="36" rx="9" fill="#57C9E8"/>
+      <text x="896" y="182" text-anchor="middle" fill="#082034" font-size="16" font-weight="800">01</text>
+      <text x="926" y="169" fill="#FFFFFF" font-size="17" font-weight="700">Strategize</text>
+      <text x="926" y="194" fill="#B8CAD6" font-size="13">Business value and AI roadmap</text>
     </g>
 
-    <g transform="translate(866 232)">
-      <rect width="594" height="64" rx="12" fill="#163650" stroke="#70CBEC" stroke-opacity="0.28"/>
-      <rect x="18" y="18" width="28" height="28" rx="8" fill="#78D5B6"/>
-      <text x="32" y="38" text-anchor="middle" fill="#082136" font-size="16" font-weight="800">02</text>
-      <text x="62" y="29" fill="#FFFFFF" font-size="18" font-weight="700">Secure Implementation</text>
-      <text x="62" y="50" fill="#B7CCDA" font-size="14">Landing zones, automation, governance and delivery</text>
+    <g>
+      <rect x="1168" y="136" width="294" height="82" rx="12" fill="#14344F" stroke="#79D2EF" stroke-opacity="0.18"/>
+      <rect x="1188" y="158" width="36" height="36" rx="9" fill="#78D4B5"/>
+      <text x="1206" y="182" text-anchor="middle" fill="#082034" font-size="16" font-weight="800">02</text>
+      <text x="1236" y="169" fill="#FFFFFF" font-size="17" font-weight="700">Architect</text>
+      <text x="1236" y="194" fill="#B8CAD6" font-size="13">Secure target-state design</text>
     </g>
 
-    <g transform="translate(866 306)">
-      <rect width="594" height="64" rx="12" fill="#163650" stroke="#70CBEC" stroke-opacity="0.28"/>
-      <rect x="18" y="18" width="28" height="28" rx="8" fill="#A8B8FF"/>
-      <text x="32" y="38" text-anchor="middle" fill="#082136" font-size="16" font-weight="800">03</text>
-      <text x="62" y="29" fill="#FFFFFF" font-size="18" font-weight="700">AI Operations &amp; Value</text>
-      <text x="62" y="50" fill="#B7CCDA" font-size="14">Evaluation, observability, FinOps and continuous improvement</text>
+    <g>
+      <rect x="858" y="234" width="294" height="82" rx="12" fill="#14344F" stroke="#79D2EF" stroke-opacity="0.18"/>
+      <rect x="878" y="256" width="36" height="36" rx="9" fill="#A7B7FF"/>
+      <text x="896" y="280" text-anchor="middle" fill="#082034" font-size="16" font-weight="800">03</text>
+      <text x="926" y="267" fill="#FFFFFF" font-size="17" font-weight="700">Implement</text>
+      <text x="926" y="292" fill="#B8CAD6" font-size="13">Automated, governed delivery</text>
+    </g>
+
+    <g>
+      <rect x="1168" y="234" width="294" height="82" rx="12" fill="#14344F" stroke="#79D2EF" stroke-opacity="0.18"/>
+      <rect x="1188" y="256" width="36" height="36" rx="9" fill="#E7B66A"/>
+      <text x="1206" y="280" text-anchor="middle" fill="#082034" font-size="16" font-weight="800">04</text>
+      <text x="1236" y="267" fill="#FFFFFF" font-size="17" font-weight="700">Operationalize</text>
+      <text x="1236" y="292" fill="#B8CAD6" font-size="13">Observability, FinOps and value</text>
     </g>
   </g>
 </svg>
